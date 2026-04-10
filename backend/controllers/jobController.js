@@ -276,7 +276,7 @@ exports.exportJobs = async (req, res, next) => {
     const csvContent = csvHeader + csvRows;
     
     // Generate filename with filter info if filters are applied
-    let filename = 'cloudblitz-jobs-export';
+    let filename = 'job-board-jobs-export';
     const filterParts = [];
     if (search) filterParts.push('search');
     if (location) filterParts.push(location.replace(/[^a-zA-Z0-9]/g, '-'));

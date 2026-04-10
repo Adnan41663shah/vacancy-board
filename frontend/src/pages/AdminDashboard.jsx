@@ -297,7 +297,7 @@ const AdminDashboard = () => {
       a.href = url;
       
       // Generate filename based on active filters
-      let filename = `cloudblitz-jobs-${new Date().toISOString().split('T')[0]}`;
+      let filename = `job-board-jobs-${new Date().toISOString().split('T')[0]}`;
       const filterParts = [];
       if (exportFilters.search) filterParts.push('search');
       if (exportFilters.location) filterParts.push(exportFilters.location.replace(/[^a-zA-Z0-9]/g, '-'));
@@ -376,7 +376,7 @@ const AdminDashboard = () => {
                   className="flex items-center justify-center space-x-1.5 sm:space-x-2 border-2 border-purple-300 text-purple-700 bg-purple-50 px-2.5 sm:px-3 md:px-4 py-2 sm:py-2.5 rounded-lg font-semibold hover:bg-purple-100 transition-colors text-xs sm:text-sm"
                 >
                   <FaBook className="text-xs sm:text-sm" />
-                  <span className="hidden sm:inline">New Course</span>
+                  <span className="hidden sm:inline">New Category</span>
                   <span className="sm:hidden">Category</span>
                 </button>
                 <button

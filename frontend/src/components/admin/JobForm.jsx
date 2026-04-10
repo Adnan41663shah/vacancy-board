@@ -85,7 +85,7 @@ const JobForm = ({ isOpen, onClose, job, onSubmit, categories = [] }) => {
                 className={`w-full px-3 sm:px-4 py-2.5 sm:py-3 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-all text-sm sm:text-base ${
                   errors.company ? 'border-red-500' : 'border-gray-300'
                 }`}
-                placeholder="e.g., CloudBlitz Technologies"
+                placeholder="e.g., Job Board"
                 maxLength={50}
               />
               {errors.company && (

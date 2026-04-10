@@ -13,31 +13,14 @@ const Header = ({ onAdminClick }) => {
         {/* Main Navbar Container */}
         <div className="backdrop-blur-sm bg-white/30 rounded-full shadow-lg">
           <div className="flex items-center justify-between h-12 sm:h-14 md:h-16 px-3 sm:px-4 md:px-6 lg:px-8">
-            {/* Logo */}
+            {/* Brand */}
             <div className="flex items-center">
-              <a
-                href="https://cloudblitz.in"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center"
+              <Link
+                to="/"
+                className="text-lg sm:text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-500 to-purple-600 bg-clip-text text-transparent"
               >
-                <img 
-                  src="/logo.webp" 
-                  alt="CloudBlitz Logo" 
-                  className="h-6 w-auto sm:h-7 md:h-8 lg:h-9 transition-all duration-300 ease-in-out"
-                  style={{
-                    filter: 'drop-shadow(0 0 0 transparent)',
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.filter = 'drop-shadow(0 0 16px rgba(255, 168, 97, 0.5)) drop-shadow(0 0 10px rgba(255, 165, 92, 0.4)) drop-shadow(0 0 14px rgba(194, 134, 255, 0.4)) drop-shadow(0 0 18px rgba(192, 129, 255, 0.3))';
-                    e.currentTarget.style.transform = 'scale(1.1)';
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.filter = 'drop-shadow(0 0 0 transparent)';
-                    e.currentTarget.style.transform = 'scale(1)';
-                  }}
-                />
-              </a>
+                Job Board
+              </Link>
             </div>
 
             {/* Desktop Admin Button */}
