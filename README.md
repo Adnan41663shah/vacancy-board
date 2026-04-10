@@ -1,6 +1,6 @@
-# Vacancy Board - MERN Stack Job Portal
+# Job Board - MERN Stack Job Portal
 
-A modern, feature-rich job vacancy board application built with the MERN stack, focusing on diversity and inclusion in the workplace. The platform provides an intuitive interface for job seekers to discover opportunities while offering comprehensive admin tools for job management.
+A modern, feature-rich job board application built with the MERN stack, focusing on diversity and inclusion in the workplace. The platform provides an intuitive interface for job seekers to discover opportunities while offering comprehensive admin tools for job management.
 
 ## 🌟 Features
 
@@ -177,7 +177,7 @@ npm start
 
 After running `npm run create-admin` in the backend directory:
 - **Username**: `admin`
-- **Password**: `admin123`
+- **Password**: `Password@123`
 - **Email**: `admin@cloudblitz.in`
 
 ⚠️ **Important**: Change the password immediately after first login!
@@ -218,7 +218,7 @@ vacancy_board/
     ├── public/
     │   ├── handsome-man-with-laptop-removebg-preview.png
     │   ├── image.png
-    │   └── logo.webp
+    │   └── static assets
     ├── src/
     │   ├── components/
     │   │   ├── admin/
@@ -398,4 +398,4 @@ For issues, questions, or contributions, please contact the development team.
 
 ---
 
-**Built with ❤️ by the Vacancy Board Team**
+**Built with ❤️ by the Job Board Team**
